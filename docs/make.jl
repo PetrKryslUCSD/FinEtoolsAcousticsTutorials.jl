@@ -1,21 +1,17 @@
-using Documenter, FinEtools, FinEtoolsAcoustics
+using Documenter, FinEtools, FinEtoolsAcousticsTutorials
 
 makedocs(
-	modules = [FinEtoolsAcoustics],
+	modules = [FinEtoolsAcousticsTutorials],
 	doctest = false, clean = true,
 	format = Documenter.HTML(prettyurls = false),
 	authors = "Petr Krysl",
-	sitename = "FinEtoolsAcoustics.jl",
+	sitename = "FinEtoolsAcousticsTutorials.jl",
 	pages = Any[
 	"Home" => "index.md",
 	"Tutorials" => "tutorials/tutorials.md",
-	"How to guide" => "guide/guide.md",
-	"Types and Functions" => Any[
-		"man/types.md",
-		"man/functions.md"]
-		]
+	]
 	)
 
 deploydocs(
-    repo = "github.com/PetrKryslUCSD/FinEtoolsAcoustics.jl.git",
+    repo = "github.com/PetrKryslUCSD/FinEtoolsAcousticsTutorials.jl.git",
 )
