@@ -3,10 +3,10 @@ uuid = "089e5334-5529-4877-a2bf-5f3c77894b90"
 authors = ["Petr Krysl <pkrysl@ucsd.edu>"]
 version = "0.1.0"
 
-
 [deps]
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
 FinEtools = "91bb5406-6c9a-523d-811d-0644c4229550"
+FinEtoolsAcoustics = "72171760-8bdd-11e9-0dbf-b3b512e82515"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Literate = "98b081ad-f1c9-55d3-8b20-4c87d4299306"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
