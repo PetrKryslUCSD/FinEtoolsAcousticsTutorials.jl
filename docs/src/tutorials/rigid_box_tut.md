@@ -8,12 +8,9 @@ Wu, page 123. Internal resonance problem. Reference frequencies: 90.7895,
 
 ## Goals
 
-- Introduce definition of cross-section.
-- Show generation of finite element mesh of beams.
-- Describe geometry, displacement, and rotation fields.
-- Describe application of support conditions.
-- Calculate the discrete model quantities and solve the free vibration problem.
-- Demonstrate visualization of the free vibrations.
+- Construct the discrete model and solve the eigenvalue problem for the
+  natural frequencies.
+- Visualize eigenmodes.
 
 ```julia
 #
