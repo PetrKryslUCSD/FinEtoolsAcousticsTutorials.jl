@@ -1,4 +1,4 @@
-[Table of contents](https://petrkryslucsd.github.io/FinEtoolsAcoustics.jl/dev/index.html)
+[Table of contents](https://petrkryslucsd.github.io/FinEtoolsAcousticsTutorials.jl/dev/index.html)
 
 # Tutorials
 
