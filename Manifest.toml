@@ -1,10 +1,5 @@
 # This file is machine-generated - editing it directly is not advised
 
-[[ArgCheck]]
-git-tree-sha1 = "dedbbb2ddb876f899585c4ec4433265e3017215a"
-uuid = "dce04be8-c92d-5529-be00-80e4d2c0e197"
-version = "2.1.0"
-
 [[Arpack]]
 deps = ["Arpack_jll", "Libdl", "LinearAlgebra"]
 git-tree-sha1 = "2ff92b71ba1747c5fdd541f8fc87736d82f40ec9"
@@ -75,9 +70,9 @@ version = "1.3.0"
 
 [[DataStructures]]
 deps = ["Compat", "InteractiveUtils", "OrderedCollections"]
-git-tree-sha1 = "11bdd2b516918f852fdb9018bac715ff2fbfea76"
+git-tree-sha1 = "88a93640bb3345436284ff089b383c34427f4117"
 uuid = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-version = "0.18.0"
+version = "0.18.2"
 
 [[DataValueInterfaces]]
 git-tree-sha1 = "bfc1187b79289637fa0ef6d4436ebdfe6905cbd6"
@@ -87,12 +82,6 @@ version = "1.0.0"
 [[Dates]]
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
-
-[[DefaultApplication]]
-deps = ["InteractiveUtils"]
-git-tree-sha1 = "fc2b7122761b22c87fec8bf2ea4dc4563d9f8c24"
-uuid = "3f0dd361-4fe0-5fc6-8523-80b14ec94d85"
-version = "1.0.0"
 
 [[DelimitedFiles]]
 deps = ["Mmap"]
@@ -113,21 +102,21 @@ uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[FinEtools]]
 deps = ["Arpack", "DelimitedFiles", "LinearAlgebra", "LoopVectorization", "Printf", "Random", "SparseArrays", "Statistics", "StatsBase", "Test", "Unicode"]
-git-tree-sha1 = "331ce009490808a0ba67c0ecc6ad7da69ecf037d"
+git-tree-sha1 = "aaf0cd2c92012ae8092105dd4a21ae6f406375f7"
 uuid = "91bb5406-6c9a-523d-811d-0644c4229550"
-version = "4.6.1"
+version = "4.6.2"
 
 [[FinEtoolsAcoustics]]
 deps = ["Arpack", "FinEtools", "FinEtoolsDeforLinear", "LinearAlgebra", "SparseArrays", "Statistics", "Test"]
-git-tree-sha1 = "080f036b8be6042e4af87d1f4accc61aa2f22f42"
+git-tree-sha1 = "570f2f1f20d93dc79edd5ad4c11d402f7be1f2b0"
 repo-rev = "master"
 repo-url = "https://github.com/PetrKryslUCSD/FinEtoolsAcoustics.jl.git"
 uuid = "72171760-8bdd-11e9-0dbf-b3b512e82515"
 version = "0.2.0"
 
 [[FinEtoolsDeforLinear]]
-deps = ["Arpack", "FinEtools", "LinearAlgebra", "Literate", "PGFPlotsX", "PlotlyJS", "SparseArrays", "Statistics", "StatsBase", "SymRCM", "Test"]
-git-tree-sha1 = "73e775da25150ed727ec18a75692b23ad783bb5e"
+deps = ["Arpack", "FinEtools", "LinearAlgebra", "PlotlyJS", "SparseArrays", "Statistics", "StatsBase", "SymRCM", "Test"]
+git-tree-sha1 = "1f4c546807d1d1127bb326b71abf428fd2af6cf2"
 repo-rev = "master"
 repo-url = "https://github.com/PetrKryslUCSD/FinEtoolsDeforLinear.jl.git"
 uuid = "e9187c00-8bdd-11e9-1e70-7ba8303116a2"
@@ -284,18 +273,6 @@ version = "0.3.10+0"
 git-tree-sha1 = "293b70ac1780f9584c89268a6e2a560d938a7065"
 uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 version = "1.3.0"
-
-[[PGFPlotsX]]
-deps = ["ArgCheck", "DataStructures", "Dates", "DefaultApplication", "DocStringExtensions", "MacroTools", "Parameters", "Requires"]
-git-tree-sha1 = "96fb16779688e4fd943e3625a6789e978186dfef"
-uuid = "8314cec4-20b6-5062-9cdb-752b83310925"
-version = "1.2.9"
-
-[[Parameters]]
-deps = ["OrderedCollections", "UnPack"]
-git-tree-sha1 = "38b2e970043613c187bd56a995fe2e551821eb4a"
-uuid = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-version = "0.12.1"
 
 [[Parsers]]
 deps = ["Dates", "Test"]
