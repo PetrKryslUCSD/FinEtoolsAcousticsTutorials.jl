@@ -1,7 +1,7 @@
 name = "FinEtoolsAcousticsTutorials"
 uuid = "089e5334-5529-4877-a2bf-5f3c77894b90"
 authors = ["Petr Krysl <pkrysl@ucsd.edu>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
@@ -16,8 +16,8 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [compat]
 Arpack = "^0.4"
-FinEtools = "^4"
-FinEtoolsAcoustics = "^0.2"
-FinEtoolsDeforLinear = "^0.2"
+FinEtools = "^4.7"
+FinEtoolsAcoustics = "^0.3"
+FinEtoolsDeforLinear = "^0.3"
 Literate = "^2"
 julia = "^1.5"
