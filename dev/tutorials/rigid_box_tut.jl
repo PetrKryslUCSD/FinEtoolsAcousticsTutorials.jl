@@ -1,5 +1,7 @@
 # # Modal analysis of acoustic medium in a rigid box
 
+# Source code: [`rigid_box_tut.jl`](rigid_box_tut.jl)
+
 # ## Description
 
 # Example from Boundary element acoustics: Fundamentals and computer codes, TW

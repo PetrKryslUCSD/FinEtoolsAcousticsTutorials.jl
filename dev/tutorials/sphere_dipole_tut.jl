@@ -1,5 +1,7 @@
 # # Moving sphere in an infinite fluid
 
+# Source code: [`sphere_dipole_tut.jl`](sphere_dipole_tut.jl)
+
 # ## Description
 
 # A rigid sphere in an infinite volume of fluid accelerates alternately in the
