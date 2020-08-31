@@ -1,8 +1,11 @@
 # Baffled piston in a half-sphere domain
 
+Source code: [`baffled_piston_tut.jl`](baffled_piston_tut.jl)
+
 ## Description
 
 Baffled piston in a half-sphere domain with Absorbing Boundary Condition (ABC).
+This is a steady-state simulation.
 
 ![](baffled_piston.png)
 
