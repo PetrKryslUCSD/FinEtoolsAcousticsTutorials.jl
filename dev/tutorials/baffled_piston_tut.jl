@@ -11,6 +11,7 @@
 
 # ## Goals
 
+# - Show how to construct structured multi-block mesh.
 # - Demonstrate the use of an algorithm to run the simulation.
 
 ##
